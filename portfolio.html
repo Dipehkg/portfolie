@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<!-- saved from url=(0058)http://127.0.0.1:5500/Important%20C%20Files/portfolio.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <style>
+        body {
+            background-color: #FDF6F0;
+        }
+
+        img {
+            width: 160px;
+            border: 2px solid black;
+            border-radius: 50%;
+            height: 155px;
+        }
+
+        h1 {
+            color: #753422;
+        }
+
+        #header {
+
+            margin: 10px;
+            margin-top: 10px;
+            display: inline-block;
+
+        }
+
+        h2 {
+            text-decoration: underline;
+            color: #753422;
+            margin: 10px;
+        }
+
+        .t1 {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .t1 td {
+            padding: 25px;
+        }
+
+        
+
+     .t2
+     
+     {  height: 2px;
+        margin-left:10px;
+       
+
+     }
+     .th1{
+        width:200px;
+     }
+       
+    </style>
+</head>
+
+<body>
+    <img src="./portfolio_files/dipesh.jpg">
+    <span id="header">
+        <h1>Dipesh Kumar Gupta</h1>
+        <p>student<br> B.Tech 2nd year,CSE <br> <br> College of Technology and Engineering ,Udaipur</p>
+    </span>
+    <hr>
+    <h2>Qulification</h2>
+    <table class="t1">
+        <thead>
+            <tr>
+
+                <th> Course/Examination</th>
+                <th>Insitution</th>
+                <th> Year of Passing</th>
+                <th> Performance</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>10th</td>
+                <td>Shri Hardev Das Adarsh Senior Secondary School,Alwar</td>
+                <td> 2018</td>
+                <td> 90.00%</td>
+            </tr>
+            <tr>
+                <td>12th</td>
+                <td>Achiever public senior secondary school,Alwar</td>
+                <td> 2020</td>
+                <td> 84.80%</td>
+
+
+
+            </tr>
+            <tr>
+                <td>B.tech <br> Computer Science and Engineering</td>
+                <td> College of Technology and Engineering(MPUAT),Udaipur</td>
+                <td>Ongoing</td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <h2>Technaical Skills</h2>
+    <ul>
+        <li><strong> Programming Language:</strong> C,C++ </li>
+        <li> Web Devlopment</li>
+    </ul>
+
+    <hr>
+
+    <h2>Area of Interest</h2>
+    <ul type="square">
+        <li>Web Devlopment</li>
+        <li> Data structure And Alograthhim</li>
+        <li>Public Speaking</li>
+    </ul>
+    <hr>
+    <h2>Personal Information</h2>
+    <table class="t2">
+        <tbody><tr>
+            <td class="th1">
+                
+                <h4>Phone:</h4>
+                <p> 8302531345</p>
+            </td>
+            
+            <td>
+
+                <h4>Linkedin:</h4>
+                <p> <a href="https://www.linkedin.com/in/dipesh-kumar-gupta-658bb1176" target="_blank">https://www.linkedin.com/in/dipesh-kumar-gupta-658bb1176</a>
+                </p>
+            </td>
+        </tr>
+        <tr id="th1">
+            <td>
+
+                <h4>Email:</h4>
+                <p><a href="http://127.0.0.1:5500/Important%20C%20Files/dgupta31702@gmail.com" target="_blank">dgupta31702@gmail.com </a></p>
+            </td>
+            
+            <td>
+
+                <h4>Github:</h4>
+                <p><a href="https://github.com/Dipehkg" target="_blank">https://github.com/Dipehkg </a></p>
+            </td>
+        </tr>
+    </tbody></table>
+    
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>
